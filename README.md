@@ -1,7 +1,7 @@
 # Gasless & Automated Cross-Chain Transfer Protocol
 This project demonstrates gasless & automated cross-chain token transfer using [Circle's CCTP](https://developers.circle.com/stablecoin/docs) as well as [Gelato Relay](https://www.gelato.network/relay) and [Gelato Web3 Functions](https://beta.app.gelato.network/).
 
-> **Warning**  
+> [!WARNING]
 > Code is not yet audited by a third party - please use at your own discretion.
 
 ## What is CCTP?
@@ -35,7 +35,7 @@ Eliminating the dependence on native tokens gives us infinitely more freedom.
 - USDC acts as an interoperability layer connecting multiple chains
 - Eliminates the need for per-chain native tokens
 
-> **Note**  
+> [!NOTE]
 > *Gasless* refers to the absence of native tokens during transaction fee payment.  
 > Gas is still paid, but abstracted away from the user and compensated in USDC.
 
